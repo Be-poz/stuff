@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header::header">
+</head>
+<body>
+하위
+<input type="text" id="greeting" th:value=${greeting} class="form-control"/>
+<div>
+    <a href="/user/member">멤버</a>
+    <a href="/user/admin">어드민</a>
+</div>
+<div>
+    <a href="/user/logout">
+        로그아웃
+    </a>
+</div>
+</body>
+</html>
